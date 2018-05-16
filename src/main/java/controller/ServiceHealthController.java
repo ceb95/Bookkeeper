@@ -13,11 +13,13 @@ public class ServiceHealthController extends HttpServlet {
 
     private String message;
 
+    @Override
     public void init() throws ServletException {
         // Do required initialization
         message = "Hello World";
     }
 
+    @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
@@ -29,6 +31,7 @@ public class ServiceHealthController extends HttpServlet {
         out.println("<h1>" + message + "</h1>");
     }
 
+    @Override
     public void destroy() {
         // do nothing.
     }

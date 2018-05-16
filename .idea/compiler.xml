@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bookkeeper" target="1.7" />
+      <module name="bookkeeper" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>
